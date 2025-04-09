@@ -1,7 +1,7 @@
 import { error } from "console";
 import { Account, Transaction, User, UserUpdateRequest } from "../types";
 
-const API_BASE_URL = process.env.BUJET_SERVER_BASE_URL || "http://localhost:8000";
+const API_BASE_URL = process.env.BUJET_SERVER_BASE_URL || "https://bujet-api.onrender.com";
 
 
 // Helper function to handle API responses
